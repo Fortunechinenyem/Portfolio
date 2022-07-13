@@ -305,10 +305,15 @@ header {
 }
 
 .about-me {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   background-color: var(--clr-dark);
   color: var(--clr-light);
+}
+
+.section__title--about {
+  grid-area: title;
+  text-align: center;
 }
 
 .about-me__img {
@@ -372,7 +377,23 @@ header {
 }
 
 .techstack {
-  background-color: #060221;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  text-align: center;
+}
+
+.section__title--techstack {
+  color: var(--clr-accent);
+  position: relative;
+}
+
+.section__title--techstack::after {
+  content: "";
+  display: block;
+  width: 2em;
+  height: 1px;
+  margin: 0.5em auto 1em;
+  background: var(--clr-light);
 }
 
 /* footer */
