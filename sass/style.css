@@ -74,6 +74,24 @@ strong {
   transform: scale(1.1);
 }
 
+.btn1 {
+  display: inline-block;
+  padding: 0.5em 2.5em;
+  background: var(--clr-dark);
+  color: var(--clr-accent);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: var(--fw-bold);
+  transition: transform 200ms ease-in-out;
+}
+
+.btn1:hover {
+  transform: scale(1.1);
+}
+
 /* Typography */
 h1,
 h2,
@@ -394,6 +412,15 @@ header {
   height: 1px;
   margin: 0.5em auto 1em;
   background: var(--clr-light);
+}
+
+.contact {
+  background: var(--clr-accent);
+  color: var(--clr-dark);
+}
+
+.form-control {
+  background: var(--clr-dark);
 }
 
 /* footer */
