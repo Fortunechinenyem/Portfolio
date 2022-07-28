@@ -278,7 +278,7 @@ header {
   display: inline-block;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .intro {
     display: grid;
     width: -webkit-min-content;
@@ -292,7 +292,7 @@ header {
   }
   .intro__img {
     grid-area: img;
-    min-width: 250px;
+    max-width: 320px;
     position: relative;
     z-index: 2;
   }
