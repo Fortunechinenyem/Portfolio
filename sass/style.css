@@ -272,13 +272,14 @@ header {
 
 .intro__img {
   box-shadow: var(--bs);
+  max-width: 320px;
 }
 
 .section__subtitle--intro {
   display: inline-block;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .intro {
     display: grid;
     width: -webkit-min-content;
@@ -292,7 +293,7 @@ header {
   }
   .intro__img {
     grid-area: img;
-    max-width: 320px;
+    min-width: 250px;
     position: relative;
     z-index: 2;
   }
