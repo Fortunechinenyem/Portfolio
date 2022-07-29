@@ -49,7 +49,7 @@ section {
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: 500px;
 }
 
 strong {
@@ -272,14 +272,13 @@ header {
 
 .intro__img {
   box-shadow: var(--bs);
-  max-width: 320px;
 }
 
 .section__subtitle--intro {
   display: inline-block;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .intro {
     display: grid;
     width: -webkit-min-content;
