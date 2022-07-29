@@ -56,7 +56,7 @@ section {
 
 img {
   display: block;
-  max-width: 320px;
+  max-width: 100%;
 }
 
 strong {
@@ -288,7 +288,9 @@ header {
   box-shadow: var(--bs);
   
 }
-
+.fortuneimg {
+  max-width: 320px;
+}
 .section__subtitle--intro {
   display: inline-block;
 }
