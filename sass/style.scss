@@ -13,9 +13,9 @@
   --fw-reg: 400;
   --fw-bold: 700;
 
-  --clr-light: rgb(190, 182, 182);
+  --clr-light: #bfbf9e;
   --clr-dark: #1a1408;
-  --clr-accent: #bfbf9e;
+  --clr-accent: #7b7b3b;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -315,7 +315,9 @@ header {
 }
 
 /*  My services section  */
-
+.skilllist {
+  list-style: none;
+}
 .my-services {
   background-color: var(--clr-dark);
   // background-image: url(../image/Emoji\ fighter\ for\ linkedin.PNG);
@@ -363,36 +365,30 @@ header {
 .about-me__img {
   box-shadow: var(--bs);
 }
-@media (min-width: 900px) {
-  .about-me {
-    display: grid;
-    grid-template-columns: 1fr 200px;
-    grid-template-areas:
-      "title img"
-      "subtitle img"
-      "text img";
-    grid-column-gap: 2em;
-  }
+// @media (min-width: 900px) {
+//   .about-me {
+//     display: grid;
+//     grid-template-columns: 1fr 200px;
+//     grid-template-areas:
+//       "title img"
+//       "subtitle img"
+//       "text img";
+//     grid-column-gap: 2em;
+//   }
 
-  .section__title--about {
-    grid-area: title;
-  }
-  .section__subtitle--about {
-    grid-column: 1 / -1;
-    grid-row: 2;
-    position: relative;
-    left: -1em;
-    width: calc(100% + 2em);
-    padding-left: 1em;
-    padding-right: calc(200px + 4em);
-  }
-
-  .about-me__img {
-    grid-area: img;
-    position: relative;
-    z-index: 2;
-  }
-}
+//   .section__title--about {
+//     grid-area: title;
+//   }
+//   .section__subtitle--about {
+//     grid-column: 1 / -1;
+//     grid-row: 2;
+//     position: relative;
+//     left: -1em;
+//     width: calc(100% + 2em);
+//     padding-left: 1em;
+//     padding-right: calc(200px + 4em);
+//   }
+// }
 
 /* My Work */
 
@@ -452,8 +448,9 @@ header {
 // contact
 
 .contact {
-  background: var(--clr-accent);
-  color: var(--clr-dark);
+  gap: 30px;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
 }
 .form-control {
   background: var(--clr-dark);
