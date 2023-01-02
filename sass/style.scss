@@ -286,7 +286,11 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: 4;
 }
+
 /*  Intro section  */
 
 .intro {
