@@ -14,7 +14,7 @@
   --fw-bold: 700;
 
   --clr-light: #e9eff5;
-  --clr-dark: #49545c;
+  --clr-dark: #555757;
   --clr-accent: #f0efe9;
 
   --fs-h1: 3rem;
@@ -199,7 +199,7 @@ header {
 .nav__link {
   color: inherit;
   font-weight: var(--fw-bold);
-  font-size: var(--fs-h2);
+  font-size: var(--fs-h3);
   text-decoration: none;
 }
 
