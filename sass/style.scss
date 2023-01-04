@@ -420,6 +420,16 @@ header {
   color: var(--clr-light);
   text-align: center;
 }
+.mywork {
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 150px;
+  gap: 20px;
+}
+.portimage {
+  width: 350px;
+  height: 350px;
+}
 
 .portfolio {
   display: grid;

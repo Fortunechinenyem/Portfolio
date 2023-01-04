@@ -389,6 +389,18 @@ header {
   text-align: center;
 }
 
+.mywork {
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 150px;
+  gap: 20px;
+}
+
+.portimage {
+  width: 350px;
+  height: 350px;
+}
+
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
