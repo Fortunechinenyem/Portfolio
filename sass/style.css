@@ -366,22 +366,6 @@ header {
   margin: 0 auto;
 }
 
-.about-me {
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: var(--clr-dark);
-  color: var(--clr-light);
-}
-
-.section__title--about {
-  grid-area: title;
-  text-align: center;
-}
-
-.about-me__img {
-  box-shadow: var(--bs);
-}
-
 /* My Work */
 .my-work {
   background-color: var(--clr-dark);
