@@ -2,6 +2,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 /* Custom Properties, update these for your own design */
@@ -35,7 +37,7 @@ html {
 }
 
 body {
-  background: var(--clr-accent);
+  background: linear-gradient(309deg, rgb(234, 237, 243) 0%, rgba(86, 86, 95, 0.877) 79%);
   color: var(--clr-dark);
   margin: 0;
   font-family: var(--ff-primary);
@@ -289,7 +291,7 @@ header {
 
 .herotext {
   overflow: hidden;
-  border-right: 0.15em solid orange;
+  border-right: 0.15em solid rgb(221, 218, 212);
   margin: 0 auto;
   -webkit-animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
           animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
