@@ -11,4 +11,4 @@ navLinks.forEach((link) => {
   });
 });
 
-alert("Hello, welcome!");
+
