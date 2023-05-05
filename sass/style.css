@@ -13,7 +13,7 @@
   --fw-reg: 400;
   --fw-bold: 700;
   --clr-light: #e9eff5;
-  --clr-dark: #555757;
+  --clr-dark: #abb1b1;
   --clr-accent: #f0efe9;
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -37,7 +37,7 @@ html {
 }
 
 body {
-  background: linear-gradient(309deg, rgb(234, 237, 243) 0%, rgba(86, 86, 95, 0.877) 79%);
+  background: linear-gradient(309deg, rgb(138, 139, 143) 0%, rgba(32, 32, 34, 0.877) 79%);
   color: var(--clr-dark);
   margin: 0;
   font-family: var(--ff-primary);
@@ -276,7 +276,7 @@ header {
   text-align: center;
   text-align: center;
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../image/Joshua (4).jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../image/3059.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
