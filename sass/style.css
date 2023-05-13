@@ -13,8 +13,8 @@
   --fw-reg: 400;
   --fw-bold: 700;
   --clr-light: #e9eff5;
-  --clr-dark: #abb1b1;
-  --clr-accent: #f0efe9;
+  --clr-dark: #242525;
+  --clr-accent: #0d834a;
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
   --fs-h3: 1.25rem;
@@ -37,8 +37,8 @@ html {
 }
 
 body {
-  background: linear-gradient(309deg, rgb(138, 139, 143) 0%, rgba(32, 32, 34, 0.877) 79%);
-  color: var(--clr-dark);
+  background: var(--clr-dark);
+  color: var(--clr-light);
   margin: 0;
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
@@ -244,7 +244,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-  background: var(--clr-dark);
+  background: var(--clr-light);
   width: 2em;
   height: 3px;
   border-radius: 1em;
@@ -473,6 +473,35 @@ header {
   background: var(--clr-light);
 }
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  border: none;
+  border-radius: 8px;
+  color: var(--clr-dark);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-text {
+  margin-bottom: 0;
+}
+
 .contact {
   gap: 30px;
   background-color: var(--clr-dark);
@@ -485,8 +514,8 @@ header {
 
 /* footer */
 .footer {
-  background: rgb(17, 15, 22);
-  color: var(--clr-accent);
+  background: rgb(19, 18, 18);
+  color: rgb(236, 224, 224);
   text-align: center;
   padding: 2.5em 0;
   font-size: var(--fs-h3);

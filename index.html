@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="./sass/style.min.css">
     <title>Portfolio2</title>
 </head>
-<body class="">
-  <header>
+<body class="container">
+  <header class="header">
     <div class="logo">
       <img src="./image/logf.png">
     </div>
@@ -38,13 +38,12 @@
 
     <!-- hero section -->
   
-      <section class="hero w-100 mx-auto">
+      <section class="hero w-100 mx-auto" id="home">
         
-        <div class="herotext  "  >
-          <h1 >Software Developer</h1>
-            My Name is <b>Fortune</b>,<br>
-          I like to build solid and scalable web products with great <br>
-           user experiences. 
+        <div class="herotext animate__animated animate__fadeInUp "  >
+          <h1>Software Developer</h1>
+      <p>My Name is <strong>Fortune</strong>,<br>I like to build solid and scalable web products with great user experiences.</p>
+    </div>
           
         </div>
       
@@ -72,7 +71,7 @@
           </div>
           <div>
            
-            <p>Currently, I work as a Software Developer with a team that crafts thoughtful and inclusive experiences that adhere to web standards.</p>
+            <p>Currently, I work as a Software Developer with a team that crafts thoughtful and inclusive experiences while adhering to web standards.</p>
       
        
               
@@ -100,17 +99,83 @@
       
 
       <!-- Tech Stack -->
-      <section class=" techstack" id="techstack">
-        <h2 class=" section__title section__title--services">Tech Stack</h2>
-        <img class="w-100 mx-auto" src="./image/stack.png" alt="tech stack">
-      </section>
+      <section class="techstack" id="techstack">
+  <h2 class="section__title section__title--services">Tech Stack</h2>
+  <div class="card-container">
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text">HTML</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text">CSS</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text">JavaScript</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text">React.js</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text">Next.js</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+      <!-- Skills -->
+      <section class="techstack" id="techstack">
+  <h2 class="section__title section__title--services">Skills</h2>
+  <div class="card-container">
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text">Teamwork</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text">Good oral and written communication</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text">Debugging</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text">Creative thinking</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text">Adaptability</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
 
 
 
       <footer class="footer">
         <div class=" text-center ">
         <div class="">
-          <h2 class="section__title section__title--services ">Send me a message!</h2>
+          <h2 class="section__title section__title--services ">Send me a message.</h2>
           <p>Got a question or proposal, or just want to say hello? Go ahead.</p>
           <div class=" w-75 mx-auto mb-5 contact">
           
